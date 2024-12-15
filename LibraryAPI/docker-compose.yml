@@ -1,0 +1,6 @@
+version: '3.8'
+services:
+  library-api:
+    build: .
+    ports:
+      - "8080:5000"  # Change the host port to 8080
